@@ -1,0 +1,51 @@
+.box-frined .top-info {
+  position: relative;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 20px;
+}
+.box-frined .top-info img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+.box-frined .top-info a {
+  color: gray;
+  background-color: #efefef;
+  width: 30px;
+  height: 30px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.box-frined .top-info a:nth-of-type(2) {
+  top: 0;
+  left: 35px;
+}
+.box-frined .stats {
+  padding: 20px 0;
+  border-bottom: 1px solid #eee;
+}
+.box-frined .stats span:not(:last-of-type) {
+  margin-bottom: 10px;
+}
+.box-frined .stats span i {
+  margin-right: 10px;
+}
+.box-frined .func .buttons a {
+  color: white;
+  padding: 4px 6px;
+  border-radius: 4px;
+  font-size: 13px;
+}
+#remove {
+  color: white;
+  padding: 4px 6px;
+  border-radius: 4px;
+  font-size: 13px;
+  border: none;
+  cursor: pointer;
+}

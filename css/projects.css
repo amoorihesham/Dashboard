@@ -1,0 +1,75 @@
+.project-box .top-box {
+  border-bottom: 1px solid #eee;
+  padding: 20px 0;
+}
+.project-box .text span {
+  margin-top: -10px;
+}
+.project-box .team img {
+  width: 42px;
+  height: 42px;
+  border: 1px solid #eee;
+  transition: 0.3s linear;
+}
+.project-box .team img:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+.project-box .team img:not(:first-of-type) {
+  margin-left: -15px;
+}
+.process {
+  border-bottom: 1px solid #eee;
+  padding: 20px 0;
+}
+.process span {
+  padding: 6px;
+  width: fit-content;
+  border-radius: 4px;
+  color: white;
+  font-size: 14px;
+}
+.progress-box {
+  text-align: center;
+  padding: 20px 0;
+}
+.progress-box div {
+  position: relative;
+  background-color: #eee;
+  height: 6px;
+  border-radius: 4px;
+  width: 150px;
+  margin: 0 auto;
+}
+.progress-box div::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border-radius: 4px;
+}
+.progress-box div.red::before {
+  width: 80%;
+}
+.progress-box div.green::before {
+  width: 45%;
+}
+.progress-box div.blue::before {
+  width: 90%;
+}
+.progress-box div.orange::before {
+  width: 73%;
+}
+.progress-box .red::before {
+  background-color: var(--redColor);
+}
+.progress-box .green::before {
+  background-color: var(--greenColor);
+}
+.progress-box .blue::before {
+  background-color: var(--blueColor);
+}
+.progress-box .orange::before {
+  background-color: var(--orangeColor);
+}

@@ -1,0 +1,207 @@
+/* Start Website Control Widget */
+
+.toggle-box {
+  -webkit-appearance: none;
+  appearance: none;
+  display: none;
+}
+.toggle-switch {
+  background-color: #ccc;
+  width: 78px;
+  height: 32px;
+  border-radius: 16px;
+  position: relative;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.toggle-box:checked + .toggle-switch {
+  background-color: var(--blueColor);
+}
+.toggle-switch::before {
+  font-family: var(--fa-style-family-classic);
+  content: "\f00d";
+  font-weight: 900;
+  background-color: white;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  border-radius: 50%;
+  top: 4px;
+  left: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #aaa;
+  transition: 0.3s;
+}
+.toggle-box:checked + .toggle-switch::before {
+  content: "\f00c";
+  left: 50px;
+  color: var(--blue-color);
+}
+.close-msg {
+  border: 1px solid #ccc;
+  resize: none;
+  min-height: 150px;
+  font-size: 13px;
+  color: gray;
+}
+
+/* End Website Control Widget */
+/* Start General Info Widget */
+
+:disabled {
+  cursor: no-drop;
+  background-color: #f0f4f8;
+  color: #bbb;
+}
+.email {
+  display: inline-flex;
+  width: calc(100% - 80px);
+}
+
+/* End General Info Widget */
+/* STart Security Info */
+
+.sec-info .box:not(:last-of-type) {
+  border-bottom: 1px solid #eee;
+}
+.sec-info .box {
+  padding: 15px;
+}
+
+/* End Security Info */
+/* Start Social Info */
+
+.social-info .box i {
+  width: 40px;
+  height: 40px;
+  background-color: #f6f6f6;
+  border: 1px solid #ddd;
+  border-right-style: none;
+  border-radius: 6px 0 0 6px;
+  transition: 0.5s;
+}
+.social-info .box input {
+  height: 40px;
+  background-color: #f6f6f6;
+  border: 1px solid #ddd;
+  padding-left: 10px;
+  border-radius: 0 6px 6px 0;
+}
+.social-info > div:focus-within i {
+  color: black;
+}
+
+/* End Social Info */
+/* STart Widgets Control */
+
+.widget-control .control input[type="checkbox"] {
+  -webkit-appearance: none;
+  appearance: none;
+}
+.widget-control .control input[type="checkbox"]:checked + label::after {
+  transform: scale(1);
+}
+.widget-control .control label {
+  position: relative;
+  cursor: pointer;
+  padding-left: 30px;
+}
+.widget-control .control label::before,
+.widget-control .control label::after {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  margin-top: -9px;
+  border-radius: 4px;
+}
+.widget-control .control label::before {
+  content: "";
+  width: 14px;
+  height: 14px;
+  border: 2px solid #ddd;
+}
+.widget-control .control label::after {
+  font-family: var(--fa-style-family-classic);
+  content: "\f00c";
+  font-weight: 900;
+  background-color: var(--blueColor);
+  color: white;
+  font-size: 12px;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: scale(0) rotate(360deg);
+  transition: 0.3s;
+}
+
+/* End Widgets Control */
+/* Start Backup Widget */
+
+.backup input[type="radio"] {
+  -webkit-appearance: none;
+  appearance: none;
+}
+.backup .date input[type="radio"]:checked + label::after {
+  transform: scale(1);
+}
+.backup .date input[type="radio"]:checked + label::before {
+  border-color: var(--blueColor);
+}
+.backup .date label {
+  padding-left: 30px;
+  cursor: pointer;
+  position: relative;
+}
+.backup .date label::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  margin-top: -11px;
+  width: 18px;
+  height: 18px;
+  border: 2px solid #ddd;
+  border-radius: 50%;
+}
+.backup .date label::after {
+  content: "";
+  position: absolute;
+  left: 5px;
+  top: 3px;
+  width: 12px;
+  height: 12px;
+  background: var(--blueColor);
+  border-radius: 50%;
+  transition: 0.3s;
+  transform: scale(0);
+}
+.servers {
+  padding-top: 20px;
+  border-top: 1px solid #eee;
+}
+@media (max-width: 767px) {
+  .servers {
+    flex-wrap: wrap;
+  }
+  .backup .servers .server {
+    margin-right: 0;
+  }
+}
+.backup .servers .server {
+  position: relative;
+  border: 2px solid #eee;
+  margin-right: 5px;
+}
+.backup .servers .server label {
+  cursor: pointer;
+}
+.backup .servers input[type="radio"]:checked + .server {
+  border-color: var(--blueColor);
+  color: var(--blueColor);
+}
+
+/* End Backup Widget */

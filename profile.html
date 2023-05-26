@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard - Profile</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/myFrameWork.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/profile.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="page d-flex">
+      <div class="sidebar bg-white pad-20 pos-relative">
+        <h3 class="pos-relative txt-center">Amr Hesham</h3>
+        <ul>
+          <li>
+            <a
+              class="d-flex align-center font-s14 color-black pad-10 rad-6"
+              href="index.html"
+            >
+              <i class="fa-regular fa-chart-bar fa-fw"></i>
+              <span class="hide-mobile">Dashboard</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="d-flex align-center font-s14 color-black pad-10 rad-6"
+              href="setting.html"
+            >
+              <i class="fa-solid fa-gear fa-fw"></i>
+              <span class="hide-mobile">Settings</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="active d-flex align-center font-s14 color-black pad-10 rad-6"
+              href="profile.html"
+            >
+              <i class="fa-regular fa-user fa-fw"></i>
+              <span class="hide-mobile">Profile</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="d-flex align-center font-s14 color-black pad-10 rad-6"
+              href="projects.html"
+            >
+              <i class="fa-solid fa-diagram-project fa-fw"></i>
+              <span class="hide-mobile">Projects</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="d-flex align-center font-s14 color-black pad-10 rad-6"
+              href="courses.html"
+            >
+              <i class="fa-solid fa-graduation-cap fa-fw"></i>
+              <span class="hide-mobile">Courses</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="d-flex align-center font-s14 color-black pad-10 rad-6"
+              href="frindes.html"
+            >
+              <i class="fa-regular fa-circle-user fa-fw"></i>
+              <span class="hide-mobile">Frindes</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="d-flex align-center font-s14 color-black pad-10 rad-6"
+              href="files.html"
+            >
+              <i class="fa-regular fa-file fa-fw"></i>
+              <span class="hide-mobile">Files</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="d-flex align-center font-s14 color-black pad-10 rad-6"
+              href="plans.html"
+            >
+              <i class="fa-regular fa-credit-card fa-fw"></i>
+              <span class="hide-mobile">Plans</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="content width-full">
+        <!-- STart Head -->
+        <div class="head bg-white pad-15 between-flex">
+          <div class="search pos-relative">
+            <input type="search" placeholder="Type A Keyword" class="pad-10" />
+          </div>
+          <div class="items d-flex align-center">
+            <span class="pos-relative notification">
+              <i class="fa-regular fa-bell fa-lg"></i>
+            </span>
+            <img src="imgs/avatar.png" alt="Avatar Photo" />
+          </div>
+        </div>
+        <!-- End Head -->
+        <h1 class="pos-relative">Profile</h1>
+        <div class="profile-page mar-20">
+          <!-- Start Overview Section -->
+          <div class="overview bg-white rad-10 d-flex align-center">
+            <div class="avatar-box txt-c pad-20">
+              <img src="imgs/avatar.png" alt="" class="rad-half mar-bot10">
+              <h3>Amr Hesham</h3>
+              <p class="c-gray mar-top10 mar-bot10">Level 20</p>
+              <div class="level rad-6 bg-eee pos-relative">
+                <span style="width: 70%;" class="bg-blue rad-6"></span>
+              </div>
+              <div class="rating mar-top10 mar-bot10">
+                <i class="fa-solid fa-star c-orange font-s13"></i>
+                <i class="fa-solid fa-star c-orange font-s13"></i>
+                <i class="fa-solid fa-star c-orange font-s13"></i>
+                <i class="fa-solid fa-star c-orange font-s13"></i>
+                <i class="fa-solid fa-star c-orange font-s13"></i>
+              </div>
+              <p class="c-gray font-s13">550 Rating</p>
+            </div>
+            <div class="info-box width-full txt-center-mobile">
+              <div class="row pad-20 d-flex align-center">
+                <h4 class="c-gray font-s15 width-full">General Information</h4>
+                <div class="font-s14">
+                  <span class="c-gray">Full Name</span>
+                  <span>Amr Hesham</span>
+                </div>
+                <div class="font-s14">
+                  <span class="c-gray">Gender: </span>
+                  <span>Male</span>
+                </div>
+                <div class="font-s14">
+                  <span class="c-gray">Country: </span>
+                  <span>Egypt</span>
+                </div>
+                  <label>
+                    <input type="checkbox" class="toggle-box" checked />
+                    <div class="toggle-switch"></div>
+                  </label>
+              </div>
+              <div class="row pad-20 d-flex align-center">
+                <h4 class="c-gray font-s15 width-full">Personal Information</h4>
+                <div class="font-s14">
+                  <span class="c-gray">Phone: </span>
+                  <span>01015147813</span>
+                </div>
+                <div class="font-s14">
+                  <span class="c-gray">E-mail: </span>
+                  <span>amr@mail.com</span>
+                </div>
+                <div class="font-s14">
+                  <span class="c-gray">Date Of Birth: </span>
+                  <span>24/5/1999</span>
+                </div>
+                  <label>
+                    <input type="checkbox" class="toggle-box" checked />
+                    <div class="toggle-switch"></div>
+                  </label>
+              </div>
+              <div class="row pad-20 d-flex align-center">
+                <h4 class="c-gray font-s15 width-full">Job Information</h4>
+                <div class="font-s14">
+                  <span class="c-gray">Title</span>
+                  <span>Web-Developer</span>
+                </div>
+                <div class="font-s14">
+                  <span class="c-gray">Languages: </span>
+                  <span>JavaScript</span>
+                </div>
+                <div class="font-s14">
+                  <span class="c-gray">Experiance: </span>
+                  <span>3+</span>
+                </div>
+                  <label>
+                    <input type="checkbox" class="toggle-box" checked />
+                    <div class="toggle-switch"></div>
+                  </label>
+              </div>
+              <div class="row pad-20 d-flex align-center">
+                <h4 class="c-gray font-s15 width-full">Billing Information</h4>
+                <div class="font-s14">
+                  <span class="c-gray">Payment Method:</span>
+                  <span>Paypal</span>
+                </div>
+                <div class="font-s14">
+                  <span class="c-gray">E-mail: </span>
+                  <span>pay@mail</span>
+                </div>
+                <div class="font-s14">
+                  <span class="c-gray">Subscription: </span>
+                  <span>Monthly</span>
+                </div>
+                  <label>
+                    <input type="checkbox" class="toggle-box" checked />
+                    <div class="toggle-switch"></div>
+                  </label>
+              </div>
+            </div>
+          </div>
+          <!-- End Overview Section -->
+          <!-- Start Other Data -->
+          <div class="other-data d-flex gap-20">
+            <div class="skills-card pad-20 bg-white rad-10 mar-top20">
+              <h2 class="mar-bot-10">My Skills</h2>
+              <p class="c-gray font-s15 mar-bot20">Complete Skills List.</p>
+              <ul class="txt-center-mobile">
+                <li><span class="bg-blue">HTML</span><span class="bg-blue">Pugjs</span><span class="bg-blue">HAML</span></li>
+                <li><span class="bg-blue">CSS</span><span class="bg-blue">SASS</span><span class="bg-blue">Styles</span></li>
+                <li><span class="bg-blue">JavaScript</span><span class="bg-blue">TypeScript</span></li>
+                <li><span class="bg-blue">Vuejs</span><span class="bg-blue">Reactjs</span></li>
+                <li><span class="bg-blue">Jest</span><span class="bg-blue">Jasmine</span><span class="bg-blue">Laravel</span></li>
+                <li><span class="bg-blue">PHP</span><span class="bg-blue">Python</span><span class="bg-blue">Django</span></li>
+
+              </ul>
+            </div>
+            <div class="activites pad-20 bg-white rad-10 mar-top20">
+              <h2 class="mar-bot-10">Latest Activites</h2>
+              <p class="c-gray font-s15 mar-bot20">Latest Activites Done By The User.</p>
+              <div class="activity d-flex align-center txt-center-mobile">
+                <img src="imgs/avatar.png" alt="" class="rad-half">
+                <div class="info">
+                  <span class="d-block mar-bot10">Store</span>
+                  <span class="c-gray">Bought Mastering python Course</span>
+                </div>
+                <div class="date">
+                  <span class="d-block mar-bot10">18:10</span>
+                  <span class="c-gray">Yesterday</span>
+                </div>
+              </div>
+              <div class="activity d-flex align-center txt-center-mobile">
+                <img src="imgs/team-01.png" alt="" class="rad-half">
+                <div class="info">
+                  <span class="d-block mar-bot10">Store</span>
+                  <span class="c-gray">Bought Mastering python Course</span>
+                </div>
+                <div class="date">
+                  <span class="d-block mar-bot10">18:10</span>
+                  <span class="c-gray">Yesterday</span>
+                </div>
+              </div>
+              <div class="activity d-flex align-center txt-center-mobile">
+                <img src="imgs/team-02.png" alt="" class="rad-half">
+                <div class="info">
+                  <span class="d-block mar-bot10">Store</span>
+                  <span class="c-gray">Bought Mastering python Course</span>
+                </div>
+                <div class="date">
+                  <span class="d-block mar-bot10">18:10</span>
+                  <span class="c-gray">Yesterday</span>
+                </div>
+              </div>
+              <div class="activity d-flex align-center txt-center-mobile">
+                <img src="imgs/team-04.png" alt="" class="rad-half">
+                <div class="info">
+                  <span class="d-block mar-bot10">Store</span>
+                  <span class="c-gray">Bought Mastering python Course</span>
+                </div>
+                <div class="date">
+                  <span class="d-block mar-bot10">18:10</span>
+                  <span class="c-gray">Yesterday</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End Other Data -->
+        </div>
+  </body>
+</html>

@@ -1,0 +1,80 @@
+.plans-page {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+.plan-box .green-plan {
+  border: 2px solid var(--greenColor);
+  padding: 2px;
+}
+.plan-box .blue-plan {
+  border: 2px solid var(--blueColor);
+  padding: 2px;
+}
+.plan-box .orange-plan {
+  border: 2px solid var(--orangeColor);
+  padding: 2px;
+}
+.plan-box h2 {
+  color: white;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+.plan-box span {
+  font-size: 20px;
+  color: white;
+  position: relative;
+  display: block;
+  width: fit-content;
+  margin: 15px auto 0 auto;
+}
+.plan-box span::before {
+  content: "$";
+  position: absolute;
+  left: -19px;
+  top: -10px;
+}
+.plan-box ul li {
+  padding: 15px 0;
+  border-bottom: 1px solid #eee;
+  font-size: 15px;
+  font-weight: 500;
+  position: relative;
+}
+.plan-box ul li::after {
+  content: "!";
+  position: absolute;
+  right: 5px;
+  bottom: 20%;
+  transform: translateY(-30%);
+  width: 20px;
+  height: 20px;
+  background-color: gray;
+  text-align: center;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+}
+.plan-box ul li:last-of-type {
+  margin-bottom: 15px;
+}
+.plan-box ul li i {
+  margin-right: 10px;
+}
+.plan-box ul li .correct {
+  color: var(--greenColor);
+}
+.plan-box ul li .wrong {
+  color: var(--redColor);
+}
+.plan-box a {
+  display: block;
+  width: fit-content;
+  padding: 8px 15px;
+  font-size: 15px;
+  font-weight: normal;
+  margin: auto;
+}

@@ -1,0 +1,270 @@
+/* Alignments */
+
+.d-flex {
+  display: flex;
+}
+.f-wrap {
+  flex-wrap: wrap;
+}
+.align-center {
+  align-items: center;
+}
+.space-between {
+  justify-content: space-between;
+}
+.between-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.center-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.d-grid {
+  display: grid;
+}
+.span-2{
+  display: grid;
+  column-span: 2;
+}
+.gap-20 {
+  gap: 20px;
+}
+.d-block {
+  display: block;
+}
+
+/* *************************************************************************************************************** */
+/* Colors */
+
+.bg-white {
+  background-color: white;
+}
+.bg-eee {
+  background-color: #eee;
+}
+.bg-blue {
+  background-color: rgb(0 177 255);
+}
+.bg-orange {
+  background-color: #f59e0b;
+}
+.bg-green {
+  background-color: #22c55e;
+}
+.bg-red {
+  background-color: rgb(244 67 54);
+}
+.color-black {
+  color: black;
+}
+.c-gray {
+  color: gray;
+}
+.c-blue {
+  color: rgb(0 177 255);
+}
+.c-orange {
+  color: #f59e0b;
+}
+.c-green {
+  color: #22c55e;
+}
+.c-red {
+  color: rgb(244 67 54);
+}
+.c-white {
+  color: white;
+}
+
+/* ******************************************************************************************************************** */
+/* Sizes */
+
+.width-full {
+  width: 100%;
+}
+.width-fit {
+  width: fit-content;
+}
+.height-full {
+  height: 100%;
+}
+
+/* ******************************************************************************************************************** */
+/* Positions & txt Alignments */
+
+.txt-c {
+  text-align: center;
+}
+.pos-relative {
+  position: relative;
+}
+.txt-center {
+  text-align: center;
+}
+
+/* ******************************************************************************************************************** */
+/* Padding & Margins */
+
+.pad-top5 {
+  padding-top: 5px;
+}
+.pad-top10 {
+  padding-top: 10px;
+}
+.pad-top15 {
+  padding-top: 15px;
+}
+.pad-top20 {
+  padding-top: 20px;
+}
+.pad-bot5 {
+  padding-bottom: 5px;
+}
+.pad-bot10 {
+  padding-bottom: 10px;
+}
+.pad-bot15 {
+  padding-bottom: 15px;
+}
+.pad-bot20 {
+  padding-bottom: 20px;
+}
+.pad-lft5 {
+  padding-left: 5px;
+}
+.pad-lft10 {
+  padding-left: 10px;
+}
+.pad-lft15 {
+  padding-left: 15px;
+}
+.pad-lft20 {
+  padding-left: 20px;
+}
+.pad-5 {
+  padding: 5px;
+}
+.pad-10 {
+  padding: 10px;
+}
+.pad-15 {
+  padding: 15px;
+}
+.pad-20 {
+  padding: 20px;
+}
+.mar-top5 {
+  margin-top: 5px;
+}
+.mar-top10 {
+  margin-top: 10px;
+}
+.mar-top15 {
+  margin-top: 15px;
+}
+.mar-top20 {
+  margin-top: 20px;
+}
+.mar-bot5 {
+  margin-bottom: 5px;
+}
+.mar-bot10 {
+  margin-bottom: 10px;
+}
+.mar-bot15 {
+  margin-bottom: 15px;
+}
+.mar-bot20 {
+  margin-bottom: 20px;
+}
+.mar-rig5 {
+  margin-right: 5px;
+}
+.mar-rig10 {
+  margin-right: 10px;
+}
+.mar-rig15 {
+  margin-right: 15px;
+}
+.mar-rig20 {
+  margin-right: 20px;
+}
+.mar-5 {
+  margin: 5px;
+}
+.mar-10 {
+  margin: 10px;
+}
+.mar-15 {
+  margin: 15px;
+}
+.mar-20 {
+  margin: 20px;
+}
+
+/* ******************************************************************************************************************** */
+/* Borders & Radusies */
+
+.border-none {
+  border: none;
+}
+.border-ccc {
+  border: 1px solid #ccc;
+}
+.rad-6 {
+  border-radius: 6px;
+}
+.rad-10 {
+  border-radius: 10px;
+}
+.rad-half {
+  border-radius: 50%;
+}
+
+/* ******************************************************************************************************************** */
+/* Fonts Sizes */
+
+.font-s12 {
+  font-size: 12px;
+}
+.font-s13 {
+  font-size: 13px;
+}
+.font-s14 {
+  font-size: 14px;
+}
+.font-s15 {
+  font-size: 15px;
+}
+.font-s25 {
+  font-size: 25px;
+}
+.font-bold {
+  font-weight: bold;
+}
+
+/* ******************************************************************************************************************** */
+/* Btn Componantes */
+
+.btn-shape {
+  padding: 8px 10px;
+  border-radius: 6px;
+}
+
+/* ******************************************************************************************************************** */
+/* Responsive Design Tweaks*/
+@media (max-width: 767px) {
+  .hide-mobile {
+    display: none;
+  }
+  .txt-center-mobile {
+    text-align: center;
+  }
+  .block-mobile {
+    display: block;
+  }
+}
+/* ******************************************************************************************************************** */
