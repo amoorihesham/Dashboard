@@ -24,4 +24,4 @@ This is my 4th project ever after finishing learning the basics of "Html, Css",I
 * psudo-elements
 
 </details>
-[Template URL]: https://amoorihesham.github.io/Template-4/
+[Template URL]: https://amoorihesham.github.io/Dashboard/
